@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/feed', function () {
     return view('welcome');
 });
 Route::get('/reg', function () {
@@ -21,4 +21,19 @@ Route::get('/reg', function () {
 });
 Route::post('/reg', function () {
     return view('reg.reg');
+});
+Route::get('/login', function () {
+    return view('login.login');
+});
+Route::post('/login', function () {
+    return view('login.login');
+});
+Route::get('/photo', function () {
+    return view('photo.photo');
+});
+Route::get('/album', function () {
+    return view('album.album');
+});
+Route::get('/search', function () {
+    return view('search.search');
 });

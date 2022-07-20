@@ -3,6 +3,9 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 ?>
 
 
+<style type="text/css">
+.content{width:49%!important;}
+</style>
 <div id="reg_main_page">
 	
 
@@ -110,3 +113,7 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 
 
 	
+
+	<?php
+include SITE_ROOT.'/resources/views/tpl/footer.tpl.php';
+?>
