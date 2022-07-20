@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/reg', function () {
     return view('reg.reg');
 });
+Route::post('/reg', function () {
+    return view('reg.reg');
+});

@@ -1,6 +1,44 @@
 <?php
 
+
+define('SITE_NAME', 'babel');
+
+define('SITE_ROOT', str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']).'/');
+define('SMALL_PHOTO_PATH', '/image/google-material-design-wallpaper-2.jpg');
+define('BIG_PHOTO_PATH', '/image/google-material-design-wallpaper-2.jpg');
+
+
+
+
+
+
+function isUserAuth() {
+  return !empty(session('user_id')) ? true : false;
+}
+
+
+
+
+
+
+/*
+
+
+define('SMALL_PHOTO_PATH', '/image/camera-outline.jpg');
+define('BIG_PHOTO_PATH', '/image/camera-outline (1).jpg');
+
+*/
+
 /**
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Laravel
