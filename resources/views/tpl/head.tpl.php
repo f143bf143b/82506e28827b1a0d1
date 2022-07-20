@@ -80,7 +80,8 @@ a{text-decoration: none;color:blue;}
 
 
 
-<div class="head__center" style="text-align:center;position: relative;top:-61px;">
+<div class="head__center" style="text-align:center;position: relative;top:-61px;width: 235px;margin: auto;">
+	
 
 
   <a href="/photo" class="head__item" style="margin-left: -9px;">
@@ -96,7 +97,7 @@ a{text-decoration: none;color:blue;}
 	</div></a>
 
 
-  <a href="/photo" class="head__item" style="margin-left: -9px;">
+  <a href="/search" class="head__item" style="margin-left: -9px;">
 	<div style="display: inline-block;padding-right:11px;">
 		
 

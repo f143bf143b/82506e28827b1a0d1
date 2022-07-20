@@ -6,22 +6,8 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 <div id="photo_main_page">
 
 
-				<div  style="clear: both;font-weight: bold;padding:14px 14px 11px;text-align: center;">Альбомы</div>	
 
-
-<div class="nav_first" style="text-align: center;padding:14px 0 0px;border-bottom: 1px solid #DDD;">
-	<style type="text/css">
-	.nav_first__item{padding:0px 9px 11px;display: inline-block;}
-	</style>
-
-<a href="/photo" class="nav_first__item">Мои фото</a>
-<span style="padding:0 14px;">|</span>
-<a href="/album" class="nav_first__item" style="color:blue;border-bottom:1px solid blue;">Мои альбомы</a>
-<span style="padding:0 14px;">|</span>
-<a href="/album/create" class="nav_first__item">+ Создать альбом</a>
-
-
-</div>
+				<div  style="clear: both;font-weight: bold;padding:14px 14px 11px;text-align: center;border-bottom: 1px solid #DDD;">Лента</div>	
 
 
 <style type="text/css">
@@ -61,6 +47,7 @@ for($i=0;$i<7;$i++) {
 Лучами солнца передам привет
 Там где нас нет, печали свет
 А мне бы лишь услышать твой голос в ответ
+
 
 </div>
 </div>

@@ -7,6 +7,9 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 
 
 
+				<div  style="clear: both;font-weight: bold;padding:14px 14px 11px;text-align: center;">Фото</div>	
+
+
 <div class="nav_first" style="text-align: center;padding:14px 0 0px;border-bottom: 1px solid #DDD;">
 	<style type="text/css">
 	.nav_first__item{padding:0px 9px 11px;display: inline-block;}
@@ -54,13 +57,10 @@ for($i=0;$i<7;$i++) {
 
 
 
-
-
-
-Организация концертов Егор Крид:
-Тел.: +7 (965) 407-79-94 (Прохор)
-E-mail: kreedbooking@black-star.ru
-
+Там где рассвет, заката нет
+Лучами солнца передам привет
+Там где нас нет, печали свет
+А мне бы лишь услышать твой голос в ответ
 
 
 </div>
