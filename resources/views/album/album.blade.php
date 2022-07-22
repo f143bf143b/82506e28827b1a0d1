@@ -33,16 +33,24 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 .photo_block{
     width: 26%;
     display: inline-block;
-    margin-right: -15px;}
+    margin-right: -19px;}
 
-    .nav_first{}a{color:#000;}
+    .nav_first{}
 
 
-    .photo_block__title{padding:6px 0;margin: 5px 0 9px;text-align: center;height:77px;overflow: hidden;line-height:25px;}
+    .photo_block__title{padding:6px 0;margin: 5px 0 9px;text-align: center;height:77px;overflow: hidden;line-height:25px;margin-top:-17px;}
+
+.nav_first__item{color:#000;}
+
+.photo_block__image_wrap{padding:3px}
+
+.photo_block__image{}
+
 </style>
 
 
-
+<div style="text-align: center;
+    margin-right: -2%;width: 99%;">
 <?php
 for($i=0;$i<7;$i++) {
 
@@ -51,6 +59,18 @@ for($i=0;$i<7;$i++) {
 <div class="photo_block">
 <div class="photo_block__image_wrap">
 <div class="photo_block__image biggy_photo" style="background-image: url('/image/bmw_csl_hommage_vid_sboku_105056_1680x1050.jpg');">
+</div>
+
+
+
+<div style="margin-top:-19px">
+	
+<div style="background-color: #000;color:#FFF;position: relative;top:-20px;padding:9px 17px;overflow: hidden;opacity: .7;border-radius:7px;text-align: left;">
+4 фото
+</div>
+ 
+
+
 </div>
 
 <div class="photo_block__title">
@@ -63,6 +83,7 @@ for($i=0;$i<7;$i++) {
 А мне бы лишь услышать твой голос в ответ
 
 </div>
+
 </div>
 </div>
 
@@ -72,7 +93,7 @@ for($i=0;$i<7;$i++) {
 }
 ?>
 
-
+</div>
 
 
 	

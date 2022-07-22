@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+  
 </head>
 <body>
 
@@ -14,6 +18,10 @@
 
 <style type="text/css">
 html, body{margin: 0;}
+
+
+    .head__item{color:#000;}
+
 .head{border-bottom:1px solid #DDD;height:57px;}
 .head__item{display: inline-block;padding:19px 14px;}
 .head__right{float: right;}
@@ -80,9 +88,21 @@ a{text-decoration: none;color:blue;}
 
 
 
-<div class="head__center" style="text-align:center;position: relative;top:-61px;width: 235px;margin: auto;">
+<div class="head__center" style="text-align:center;position: relative;top:-61px;width: 60%;margin: auto;">
 	
 
+
+  <a href="/feed" class="head__item" style="margin-left: -9px;">
+	<div style="display: inline-block;padding-right:11px;">
+		
+
+<img src="/image/icon/newspaper.png" style="position:relative;top:3px;">
+<span style="position:relative;right: -3px;">
+	
+Лента
+</span>
+  
+	</div></a>
 
   <a href="/photo" class="head__item" style="margin-left: -9px;">
 	<div style="display: inline-block;padding-right:11px;">
@@ -95,6 +115,10 @@ a{text-decoration: none;color:blue;}
 </span>
   
 	</div></a>
+
+
+
+
 
 
   <a href="/search" class="head__item" style="margin-left: -9px;">

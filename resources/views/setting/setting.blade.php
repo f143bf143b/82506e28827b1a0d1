@@ -8,6 +8,17 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 <div id="login_main_page">
 	
 
+<div class="nav_first" style="text-align: center;padding:14px 0 0px;border-bottom: 1px solid #DDD;">
+  <style type="text/css">
+  .nav_first__item{padding:0px 9px 11px;display: inline-block;}
+  </style>
+
+<a href="/setting" class="nav_first__item" style="color:blue;border-bottom:1px solid blue;">Информация</a>
+<span style="padding:0 14px;">|</span>
+<a href="/setting/change_photo" class="nav_first__item">Загрузить фото</a>
+
+
+</div>
 
 <div class="form__block">
 	
@@ -96,7 +107,7 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 
 
 <div>
-  <a href="/setting/change_photo">Регистрация</a>
+  <a href="/setting/change_photo">Сменить фото</a>
 </div>
 
 

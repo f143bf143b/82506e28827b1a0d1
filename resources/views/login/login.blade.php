@@ -54,9 +54,11 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 
 
 <div>
+  <a href="/restore">Забыли пароль?</a>
+</div>
+<div style="margin-top:9px;">
   <a href="/reg">Регистрация</a>
 </div>
-
 
 
 </FORM>

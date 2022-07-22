@@ -1,4 +1,4 @@
-<?php
+  <?php
 include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 ?>
 
@@ -44,8 +44,7 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 
 
 
-
-
+<div style="display: none;" id="showen">
 
 <div class="form__input_global_wrap">
   <div class="form__label">
@@ -74,7 +73,7 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 
 
 
-<div class="form__input_global_wrap">
+<div class="form__input_global_wrap" id="form__input_global_wrap_password">
   <div class="form__label">
 	<span class="form__label_title">Пароль</span>
   </div>
@@ -84,15 +83,26 @@ include SITE_ROOT.'/resources/views/tpl/head.tpl.php';
 </div>
 
 
-
-
-
-
-<div class="form__input_global_wrap">
+<div class="form__input_global_wrap" style="display: snone;">
   <div class="form__input_wrap">
     <input type="submit" name="" class="button button__green"  style="" value="Зарегестрироваться">
   </div>
 </div>
+
+</div>
+
+
+<div class="form__input_global_wrap">
+  <div class="form__input_wrap">
+    <button name="" class="button button__green"  style="" onClick="$(this).hide();$('#form__input_global_wrap_password').show();$('#showen').show();event.preventDefault();">Далее ></button>
+  </div>
+</div>
+
+
+
+
+
+
 
 
 <div>
